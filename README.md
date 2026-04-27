@@ -28,5 +28,16 @@ Detects whether a given text is positive or negative.
 3. Enter your text when prompted
 4. Get results instantly
 
+### 3. NLP Multi-Tool App
+One app that runs three AI models together on any text.
+- Summarizes the text
+- Detects sentiment with confidence score
+- Extracts keywords
+
+Models used:
+- `sshleifer/distilbart-cnn-12-6` → Summarization
+- `distilbert-base-uncased-finetuned-sst-2-english` → Sentiment
+- `yanekyuk/bert-uncased-keyword-extractor` → Keywords
+
 ## Author
 Archana B | [GitHub](https://github.com/archana-b15)
