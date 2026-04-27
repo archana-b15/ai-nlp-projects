@@ -39,5 +39,12 @@ Models used:
 - `distilbert-base-uncased-finetuned-sst-2-english` → Sentiment
 - `yanekyuk/bert-uncased-keyword-extractor` → Keywords
 
+
+### 4. Fake News Detector
+Detects whether a news article is real or fake.
+- Model: `hamzab/roberta-fake-news-classification`
+- Input: Any news article text
+- Output: TRUE/FAKE verdict + confidence score
+
 ## Author
 Archana B | [GitHub](https://github.com/archana-b15)
