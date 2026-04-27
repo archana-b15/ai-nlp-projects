@@ -46,5 +46,13 @@ Detects whether a news article is real or fake.
 - Input: Any news article text
 - Output: TRUE/FAKE verdict + confidence score
 
+
+### 5. Resume Analyzer
+Compares a resume with a job description and returns a match score.
+- Library: sentence-transformers
+- Model: all-MiniLM-L6-v2
+- Input: Resume text + Job description
+- Output: Match score + Missing skills
+
 ## Author
 Archana B | [GitHub](https://github.com/archana-b15)
